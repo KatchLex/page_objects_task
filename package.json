@@ -1,0 +1,25 @@
+{
+  "name": "page_objects_task",
+  "version": "1.0.0",
+  "description": "Page Object concept implementation",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatchLex/page_objects_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatchLex/page_objects_task/issues"
+  },
+  "homepage": "https://github.com/KatchLex/page_objects_task#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "protractor": "^7.0.0"
+  }
+}
